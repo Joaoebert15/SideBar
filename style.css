@@ -1,0 +1,117 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #991414;
+    transition: left 0.3s ease-in-out;
+    border-radius: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+  }
+  
+  .sidebar-toggle {
+    position: absolute;
+    top: 10px;
+    right: -40px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .sidebar-toggle:hover {
+    background-color: #fcfcfc;
+    transition-duration: 1.8s;
+    color: black;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+
+  .logo-name{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .div-inf{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    
+    
+}
+
+.div-inf .ingresso{
+    color: white;
+    margin: 4px;
+    font-size: 20px;
+    
+}
+
+.div-inf .socio{
+    color: #ffffff;
+    margin: 4px;
+    font-size: 20px;
+}
+
+
+#div-inf{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img-perfil{
+   border-radius: 100px;
+   position: relative;
+   left: 5px;
+   top: 3px;
+   margin-left: 5px;
+   display: flex;
+   justify-content: center;
+}
+
+.footer-side{
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.log{
+    display: flex;
+    flex-flow: row;
+    
+}
+
+.log-out{
+   padding: 0px;
+   padding-right: 20px;
+   display: flex;
+   justify-content: end;
+}
